@@ -44,7 +44,7 @@ $control = 0
 #####################################Control Check##############################################################################
 elseif ( $control -ne 1)
 {
- Write-EventLog –LogName CA.OMS.Applications –Source "CA-SmartPin" –EntryType Error –EventID 9999 –Message "$AlertName"
+ Write-EventLog –LogName CA.OMS.Applications –Source "SOURCENAME" –EntryType Error –EventID 9999 –Message "$AlertName"
 }
 
 }
